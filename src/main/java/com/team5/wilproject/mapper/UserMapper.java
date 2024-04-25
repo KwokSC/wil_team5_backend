@@ -1,0 +1,8 @@
+package com.team5.wilproject.mapper;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public class UserMapper {
+
+}

@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      password:
+
+  datasource:
+    url:
+    username:
+    password:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: dbdfd06096cc0f104720
+            clientSecret: 2d3a149fbdec2e688679505dd91460f8177210f3
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
